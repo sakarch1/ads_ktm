@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | ADSKTM</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body class="text-black font-sans leading-normal tracking-normal">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between p-6 ">
+        <div class="flex items-center flex-shrink-0 mr-6">
+            <a href="index.html"><img src="assets/logo.jpg" alt="ADSKTM logo" class="w-16 h-16"></a>
+        </div>
+        <div class="flex flex-grow items-center justify-center space-x-10">
+            <a href="index.html" class="hover:text-gray-600 ml-4">HOME</a>
+            <div class="relative dropdown">
+                <a href="services.html" class="hover:text-gray-600 ml-4">SERVICES</a>
+                <div class="dropdown-menu bg-black text-white py-2 mt-2 rounded shadow-lg">
+                    <a href="seo.html" class="block px-4 py-2 hover:bg-primary2">SEO OPTIMIZATION</a>
+                    <a href="smm.html" class="block px-4 py-2 hover:bg-primary2">SOCIAL MEDIA MARKETING</a>
+                    <a href="content.html" class="block px-4 py-2 hover:bg-primary2">CONTENT CREATION</a>
+                </div>
+            </div>
+            <a href="products.html" class="bold hover:text-gray-600 ml-4">PRODUCTS</a>
+            <a href="about.html" class="bold hover:text-gray-600 ml-4">ABOUT</a>
+            <a href="blogs.html" class="bold hover:text-gray-600 ml-4">BLOGS</a>
+            <a href="contact.html" class="bold hover:text-gray-600 ml-4">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gradient-to-b from-white to-gray-200 text-gray-900">
+        <h2 class="text-4xl font-bold mb-4 text-center">Who We Are</h2>
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 p-6">
+                <p class="text-lg mb-6">
+                    At ADSKTM, we redefine the way brands connect with their audiences in the digital world. With a
+                    creative, forward-thinking mindset and a team of industry experts, we bring your ideas to life
+                    through transformative strategies and innovative technologies.
+                    <br><br>
+                    Our commitment lies in delivering tailored solutions that not only meet your expectations but exceed
+                    them. From building impactful campaigns to optimizing user engagement, our goal is to drive
+                    meaningful outcomes that fuel your brand's success.
+                    <br><br>
+                    By combining analytics-driven insights with creativity, we craft strategies that resonate with your
+                    target audience, creating long-term value. Partner with us, and let’s embark on a journey to elevate
+                    your brand to new heights in a rapidly changing digital landscape.
+                </p>
+            </div>
+            <div class="md:w-1/2 p-6">
+                <img src="assets/banner.jpg" style="height: 50vh;" alt="About ADSKTM" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Section -->
+    <section id="team" class="py-16 bg-gray-100 text-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Our Team</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 w-50">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <img src="assets/jenish.jpeg" alt="CEO" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Jenish Limbu</h3>
+                    <p class="text-gray-700">Chief Executive Officer (CEO)</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <img src="assets/operation.jpg" alt="CFO" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Arnav Shrestha</h3>
+                    <p class="text-gray-700">Chief Financial Officer (CFO)</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <img src="assets/sakar.jpeg" alt="CTO" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Sakar Sharma</h3>
+                    <p class="text-gray-700">Chief Technology Officer (CTO)</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <img src="assets/cfo.jpg" alt="Operation Head" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Bikas Bist</h3>
+                    <p class="text-gray-700">Operation Head</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gradient-to-b from-gray-200 to-white text-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">What Our Clients Say</h2>
+            <div class="relative">
+                <!-- Testimonials Slider -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Testimonial 1 -->
+                        <div class="swiper-slide bg-white rounded-lg shadow-lg p-6">
+                            <p class="text-lg italic mb-4">"ADSKTM has truly transformed our digital presence. Their
+                                innovative strategies helped us reach new heights in audience engagement."</p>
+                            <div class="flex justify-center items-center mb-2">
+                                <img src="assets/ceo.jpeg" alt="Client 1"
+                                    class="w-16 h-16 rounded-full border-2 border-gray-300">
+                            </div>
+                            <h3 class="text-xl font-semibold">Salon Gautam</h3>
+                            <p class="text-gray-700">Marketing Manager</p>
+                            <div class="text-yellow-400 mt-2">
+                                ★★★★★
+                            </div>
+                        </div>
+                        <!-- Testimonial 2 -->
+                        <div class="swiper-slide bg-white rounded-lg shadow-lg p-6">
+                            <p class="text-lg italic mb-4">"The team at ADSKTM is incredible! They delivered exceptional
+                                results and always went the extra mile to ensure our success."</p>
+                            <div class="flex justify-center items-center mb-2">
+                                <img src="assets/operation.jpg" alt="Client 2"
+                                    class="w-16 h-16 rounded-full border-2 border-gray-300">
+                            </div>
+                            <h3 class="text-xl font-semibold">Raunak Khadka</h3>
+                            <p class="text-gray-700">Business Owner</p>
+                            <div class="text-yellow-400 mt-2">
+                                ★★★★☆
+                            </div>
+                        </div>
+                        <!-- Testimonial 3 -->
+                        <div class="swiper-slide bg-white rounded-lg shadow-lg p-6">
+                            <p class="text-lg italic mb-4">"Working with ADSKTM was an amazing experience. Their
+                                expertise and attention to detail were exactly what we needed."</p>
+                            <div class="flex justify-center items-center mb-2">
+                                <img src="assets/cto.jpg" alt="Client 3"
+                                    class="w-16 h-16 rounded-full border-2 border-gray-300">
+                            </div>
+                            <h3 class="text-xl font-semibold">Sujan Chand</h3>
+                            <p class="text-gray-700">Entrepreneur</p>
+                            <div class="text-yellow-400 mt-2">
+                                ★★★★★
+                            </div>
+                        </div>
+                        <!-- Testimonial 4 -->
+                        <div class="swiper-slide bg-white rounded-lg shadow-lg p-6">
+                            <p class="text-lg italic mb-4">"Their creative approach to marketing helped us stand out in
+                                a competitive market. Highly recommend their services!"</p>
+                            <div class="flex justify-center items-center mb-2">
+                                <img src="assets/cfo.jpg" alt="Client 4"
+                                    class="w-16 h-16 rounded-full border-2 border-gray-300">
+                            </div>
+                            <h3 class="text-xl font-semibold">Arjit Lohani</h3>
+                            <p class="text-gray-700">Startup Founder</p>
+                            <div class="text-yellow-400 mt-2">
+                                ★★★★☆
+                            </div>
+                        </div>
+                        <!-- Testimonial 5 -->
+                        <div class="swiper-slide bg-white rounded-lg shadow-lg p-6">
+                            <p class="text-lg italic mb-4">"ADSKTM provided outstanding support and delivered on every
+                                promise. I’m beyond satisfied with the results."</p>
+                            <div class="flex justify-center items-center mb-2">
+                                <img src="assets/sandip.jpg" alt="Client 5"
+                                    class="w-16 h-16 rounded-full border-2 border-gray-300">
+                            </div>
+                            <h3 class="text-xl font-semibold">Sandip Gyawali</h3>
+                            <p class="text-gray-700">E-commerce Specialist</p>
+                            <div class="text-yellow-400 mt-2">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer bg-gray-700 font-semibold">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About</h3>
+                <p>We are a team of professionals committed to driving results for your brand.
+                    <br>Our mission is to empower your brand with innovative digital advertising strategies, ensuring
+                    your success
+                    in
+                    a competitive market.
+                </p>
+            </div>
+            <div class="footer-section courses">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="seo.html">SEO Optimization</a></li>
+                    <li><a href="smm.html">Social Media Marketing</a></li>
+                    <li><a href="content.html">Content Creation</a></li>
+                    <li><a href="brand.html">Branding</a></li>
+                    <li><a href="adv.html">Advertising</a></li>
+                    <li><a href="email.html">Email Marketing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section links">
+                <h3>Link</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Mid Baneshwor, Kathmandu, Nepal</li>
+                    <li>01-4455663 / 9813969836</li>
+                    <li><a href="mailto:adsktm@softech.com">adsktm@softech.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom">Copyright &copy; 2024. All Rights Reserved | AdsKTM </p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
